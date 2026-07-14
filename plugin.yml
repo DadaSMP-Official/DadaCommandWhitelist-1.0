@@ -1,0 +1,16 @@
+name: DadaCommandWhitelist
+version: 1.0.0
+main: it.dadasmp.commandwhitelist.DadaCommandWhitelist
+api-version: '1.20'
+author: DadaSMP
+description: Nasconde e blocca i comandi non permessi ai player.
+commands:
+  dadacommandwhitelist:
+    aliases: [dcw, commandwhitelist]
+    description: Ricarica il filtro comandi.
+    usage: /dcw reload
+permissions:
+  dadacommandwhitelist.admin:
+    default: op
+  dadacommandwhitelist.bypass:
+    default: op
